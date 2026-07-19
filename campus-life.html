@@ -16,6 +16,10 @@
         <p>Bayero University</p>
       </div>
     </a>
+
+    <button class="mobile-menu-toggle" aria-label="Toggle navigation">
+    ☰
+    </button>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -28,9 +32,101 @@
     </nav>
   </header>
 
-  <main style="padding: 100px 5%; min-height: 60vh;">
-    <h1>Campus Life</h1>
-    <p>This page is ready to be built out.</p>
-  </main>
+  <main>
+      <!-- Page Header (Matches style of your home subheadings) -->
+      <section class="features" style="padding-bottom: 2rem;">
+        <div class="section-header">
+          <span class="section-tag">Vibrant Community</span>
+          <h2>Life Beyond the Classroom</h2>
+          <p>From energetic sports rivalries to cultural clubs and cozy student lounges, find your second home at BUK.</p>
+        </div>
+      </section>
+
+      <!-- Interactive Tabs Component -->
+      <section class="campus-life-tabs">
+        <div class="tabs-nav">
+          <button class="tab-btn active" data-target="clubs">Clubs & Culture</button>
+          <button class="tab-btn" data-target="sports">Sports & Athletics</button>
+          <button class="tab-btn" data-target="housing">Student Housing</button>
+        </div>
+
+        <div class="tabs-content-container">
+          <!-- Content Panel 1: Clubs -->
+          <div class="tab-panel active" id="clubs">
+            <div class="panel-grid">
+              <div class="panel-text">
+                <h3>Diverse Communities</h3>
+                <p>Join student-led associations, debate clubs, and cultural groups that enrich campus diversity. Build your network and leadership skills outside formal classes.</p>
+                <ul class="panel-list">
+                  <li>• Faculty & Departmental Student Associations</li>
+                  <li>• BUK Press & Media Club</li>
+                  <li>• Tech Innovation & coding clusters</li>
+                </ul>
+              </div>
+              <div class="panel-graphic placeholder-1">
+                <span class="graphic-letter">C</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Content Panel 2: Sports -->
+          <div class="tab-panel" id="sports">
+            <div class="panel-grid">
+              <div class="panel-text">
+                <h3>Championship Spirit</h3>
+                <p>Represent BUK or cheer from the stands! Our athletes compete in soccer, basketball, track & field events, and the national NUGA games.</p>
+                <ul class="panel-list">
+                  <li>• Modern Sports Complex & pitches</li>
+                  <li>• Intra-university championships</li>
+                  <li>• Elite training support</li>
+                </ul>
+              </div>
+              <div class="panel-graphic placeholder-2">
+                <span class="graphic-letter">S</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Content Panel 3: Housing -->
+          <div class="tab-panel" id="housing">
+            <div class="panel-grid">
+              <div class="panel-text">
+                <h3>Safe & Inclusive Living</h3>
+                <p>Our secure halls of residence across campuses keep you close to lecture halls, libraries, and student union hubs.</p>
+                <ul class="panel-list">
+                  <li>• Separate male & female hostels</li>
+                  <li>• 24/7 security services</li>
+                  <li>• Accessible convenience shops</li>
+                </ul>
+              </div>
+              <div class="panel-graphic placeholder-3">
+                <span class="graphic-letter">H</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <a href="#" class="logo">
+          <div class="logo-circle" style="width: 40px; height: 40px; font-size: 1rem;">B</div>
+          <div class="logo-text">
+            <h1 style="font-size: 1.2rem;">BUK</h1>
+          </div>
+        </a>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Contact Support</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Bayero University Kano. Mini Assignment Project. All rights reserved.</p>
+      </div>
+    </footer> 
+    <!-- Script for Tab Switching Logic -->
+    <script src="script.js"></script>
 </body>
 </html>
