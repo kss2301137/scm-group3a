@@ -15,6 +15,22 @@ A collaborative web project built with HTML, CSS, and JS.
 
 ---
 
+## Design System Guidelines
+
+When building out your assigned pages, please adhere to the following design system rules to maintain consistency across the project:
+
+- **Theme Colors**: The project uses a sharp blue and white theme. Stick to the predefined CSS variables in `style.css`:
+  - `--primary-color`: `#0052cc` (Main Blue)
+  - `--primary-light`: `#3b82f6` (Light Blue)
+  - `--secondary-color`: `#003d99` (Dark Blue)
+  - `--bg-color`: `#f8fafc` (Background white/grey)
+  - `--white`: `#ffffff`
+- **Typography**: The project uses the **Outfit** font from Google Fonts. Do not introduce new font families.
+- **Zero Border Radius**: We are using a modern, sharp-edged aesthetic. **Do not use `border-radius` anywhere.** All buttons, images, cards, and containers must have completely square corners (0px radius).
+- **Global Layout**: Only write your HTML inside the `<main>` tag. The global `<header>` and `<footer>` should be identical on every page.
+
+---
+
 ## Team Collaboration Workflow
 
 Please follow this step-by-step guide to collaborate on our project:
